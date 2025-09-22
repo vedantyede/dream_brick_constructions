@@ -1,6 +1,8 @@
 import React from 'react';
 import { MapPin, Navigation, Clock, Car } from 'lucide-react';
 
+const para1 = " Located in the heart of New York's business district, easily accessible by car and public transportation."
+
 const Map: React.FC = () => {
   return (
     <section className="py-20 bg-white">
@@ -10,7 +12,7 @@ const Map: React.FC = () => {
             Visit Our <span className="text-yellow-600">Office</span>
           </h2>
           <p className="text-xl text-gray-600">
-            Located in the heart of New York's business district, easily accessible by car and public transportation.
+            {para1}
           </p>
         </div>
 
@@ -19,7 +21,7 @@ const Map: React.FC = () => {
           <div className="space-y-8">
             <div className="bg-gray-50 p-8 rounded-xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Office Details</h3>
-              
+
               <div className="space-y-6">
                 <div className="flex items-start">
                   <div className="bg-yellow-100 p-3 rounded-lg mr-4">
@@ -68,7 +70,7 @@ const Map: React.FC = () => {
             <div className="bg-gradient-to-br from-yellow-500 to-yellow-600 p-8 rounded-xl text-white">
               <h3 className="text-xl font-bold mb-4">Schedule a Visit</h3>
               <p className="mb-6">
-                Plan to visit our office? Schedule an appointment to ensure our team is 
+                Plan to visit our office? Schedule an appointment to ensure our team is
                 available to give you a proper consultation.
               </p>
               <button className="bg-white text-yellow-600 hover:bg-gray-100 px-6 py-3 rounded-lg font-semibold transition-colors duration-200 w-full">
@@ -96,7 +98,7 @@ const Map: React.FC = () => {
                   </button>
                 </div>
               </div>
-              
+
               {/* Decorative elements */}
               <div className="absolute top-4 right-4 bg-white bg-opacity-20 backdrop-blur-sm rounded-lg p-4">
                 <div className="text-sm text-white">
@@ -124,7 +126,7 @@ const Map: React.FC = () => {
                 Take I-95 to Exit 23. Free parking available in our building garage.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="bg-gray-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Navigation className="h-8 w-8 text-gray-700" />
@@ -134,7 +136,7 @@ const Map: React.FC = () => {
                 Subway lines 4, 5, 6 to Union Square. 5-minute walk from station.
               </p>
             </div>
-            
+
             <div className="text-center">
               <div className="bg-yellow-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                 <MapPin className="h-8 w-8 text-yellow-700" />

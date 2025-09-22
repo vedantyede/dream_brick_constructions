@@ -1,6 +1,8 @@
 import React from 'react';
 import { Building2, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Youtube } from 'lucide-react';
 
+const para1 = "Building tomorrow's infrastructure today. With 25+ years of expertise, we deliver exceptional construction and engineering solutions that stand the test of time."
+
 const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-white">
@@ -13,8 +15,7 @@ const Footer: React.FC = () => {
               <span className="text-2xl font-bold">InfraTech</span>
             </div>
             <p className="text-gray-300 mb-6 text-lg leading-relaxed max-w-md">
-              Building tomorrow's infrastructure today. With 25+ years of expertise, we deliver 
-              exceptional construction and engineering solutions that stand the test of time.
+              {para1}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">

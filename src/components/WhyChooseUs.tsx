@@ -1,6 +1,8 @@
 import React from 'react';
 import { Shield, Award, Users, Clock, Wrench, Leaf } from 'lucide-react';
 
+const para1 = "We deliver exceptional infrastructure solutions that stand the test of time. Here's what sets us apart from the competition."
+
 const WhyChooseUs: React.FC = () => {
   const features = [
     {
@@ -49,8 +51,7 @@ const WhyChooseUs: React.FC = () => {
             Why Choose <span className="text-yellow-600">InfraTech?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            We deliver exceptional infrastructure solutions that stand the test of time. 
-            Here's what sets us apart from the competition.
+            {para1}
           </p>
         </div>
 

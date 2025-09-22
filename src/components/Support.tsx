@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, Clock, MessageCircle, HeadphonesIcon, Calendar } from 'lucide-react';
+import { Phone, Mail, MessageCircle, Calendar } from 'lucide-react';
 
 const Support: React.FC = () => {
   const supportOptions = [

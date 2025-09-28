@@ -1,14 +1,14 @@
 import React from 'react';
 import { Shield, Award, Users, Clock, Wrench, Leaf } from 'lucide-react';
 
-const para1 = "We deliver exceptional infrastructure solutions that stand the test of time. Here's what sets us apart from the competition."
+const para1 = "Build with confidence. Build with DreamBrick."
 
 const WhyChooseUs: React.FC = () => {
   const features = [
     {
       icon: <Shield className="h-8 w-8" />,
-      title: 'Safety First',
-      description: 'Industry-leading safety protocols and zero-accident track record across all projects.',
+      title: 'High-Quality Materials',
+      description: 'InduNo compromises — only certified-grade, trusted brands for lasting durability.',
       color: 'bg-green-100 text-green-700'
     },
     {
@@ -48,7 +48,7 @@ const WhyChooseUs: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            Why Choose <span className="text-yellow-600">InfraTech?</span>
+            Why <span className="text-yellow-600">DreamBrick?</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             {para1}

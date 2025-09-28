@@ -66,7 +66,7 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="flex items-start">
+                {/* <div className="flex items-start">
                   <div className="bg-yellow-100 p-3 rounded-lg mr-4">
                     <MapPin className="h-6 w-6 text-yellow-700" />
                   </div>
@@ -78,7 +78,7 @@ const Contact: React.FC = () => {
                       New York, NY 10001
                     </p>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 

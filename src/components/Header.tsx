@@ -20,7 +20,7 @@ const Header: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <Image src="/Logo_Home.png" width={60} height={60} alt='logo' />
+            <Image src="/Logo_Home.png" width={100} height={100} alt='logo' />
           </div>
 
           {/* Desktop Navigation */}
@@ -29,7 +29,7 @@ const Header: React.FC = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-yellow-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                className="text-gray-700 hover:text-yellow-600 px-3 py-2 text-sm font-bold transition-colors duration-200"
               >
                 {item.name}
               </a>

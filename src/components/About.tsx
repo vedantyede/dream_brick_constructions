@@ -34,11 +34,7 @@ const About: React.FC = () => {
             </div>
           </div>
           <div className="relative">
-            <Image fill
-              src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800"
-              alt="Construction site"
-              className="rounded-2xl shadow-2xl"
-            />
+            <div className="">Image</div>
             <div className="absolute -bottom-6 -right-6 bg-yellow-500 text-white p-6 rounded-xl shadow-xl">
               <div className="text-2xl font-bold">99%</div>
               <div className="text-sm">Client Satisfaction</div>

@@ -50,14 +50,14 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">Contact Info</h3>
             <div className="space-y-4">
-              <div className="flex items-start">
+              {/* <div className="flex items-start">
                 <MapPin className="h-5 w-5 text-yellow-400 mt-1 mr-3" />
                 <div>
                   <p className="text-gray-300">123 Infrastructure Blvd</p>
                   <p className="text-gray-300">Suite 500</p>
                   <p className="text-gray-300">New York, NY 10001</p>
                 </div>
-              </div>
+              </div> */}
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-yellow-400 mr-3" />
                 <p className="text-gray-300">+1 (555) 123-4567</p>

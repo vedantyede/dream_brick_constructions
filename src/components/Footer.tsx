@@ -1,7 +1,7 @@
 import React from 'react';
-import { Building2, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Youtube } from 'lucide-react';
+import { Building2, Mail, Phone, Facebook, Instagram } from 'lucide-react';
 
-const para1 = "Building tomorrow's infrastructure today. With 25+ years of expertise, we deliver exceptional construction and engineering solutions that stand the test of time."
+const para1 = "Building dreams, brick by brick. With 7+ years of expertise since 2019, we deliver end-to-end design, construction, and interior solutions for homes and commercial spaces — trusted by 30+ clients with 99% satisfaction."
 
 const Footer: React.FC = () => {
   return (
@@ -12,23 +12,17 @@ const Footer: React.FC = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
               <Building2 className="h-8 w-8 text-yellow-400" />
-              <span className="text-2xl font-bold">InfraTech</span>
+              <span className="text-2xl font-bold">DreamBrick Construction Pvt. Ltd.</span>
             </div>
             <p className="text-gray-300 mb-6 text-lg leading-relaxed max-w-md">
               {para1}
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
+              <a href="https://www.facebook.com/profile.php?id=61581404014525" target="_blank" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
-                <Linkedin className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
-                <Youtube className="h-5 w-5" />
+              <a href="https://www.instagram.com/dreambrickconstruction" target="_blank" className="bg-gray-800 hover:bg-yellow-600 p-3 rounded-lg transition-colors duration-200">
+                <Instagram className="h-5 w-5" />
               </a>
             </div>
           </div>
@@ -42,7 +36,6 @@ const Footer: React.FC = () => {
               <li><a href="#services" className="text-gray-300 hover:text-white transition-colors duration-200">Services</a></li>
               <li><a href="#faq" className="text-gray-300 hover:text-white transition-colors duration-200">FAQ</a></li>
               <li><a href="#contact" className="text-gray-300 hover:text-white transition-colors duration-200">Contact</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-white transition-colors duration-200">Careers</a></li>
             </ul>
           </div>
 
@@ -50,21 +43,13 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-xl font-bold mb-6">Contact Info</h3>
             <div className="space-y-4">
-              {/* <div className="flex items-start">
-                <MapPin className="h-5 w-5 text-yellow-400 mt-1 mr-3" />
-                <div>
-                  <p className="text-gray-300">123 Infrastructure Blvd</p>
-                  <p className="text-gray-300">Suite 500</p>
-                  <p className="text-gray-300">New York, NY 10001</p>
-                </div>
-              </div> */}
               <div className="flex items-center">
                 <Phone className="h-5 w-5 text-yellow-400 mr-3" />
-                <p className="text-gray-300">+1 (555) 123-4567</p>
+                <p className="text-gray-300">+91 7350000723</p>
               </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-yellow-400 mr-3" />
-                <p className="text-gray-300">info@infratech.com</p>
+                <p className="text-gray-300">dreambrickconstruction@gmail.com</p>
               </div>
             </div>
           </div>
@@ -74,7 +59,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-800 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 InfraTech. All rights reserved. | Licensed • Bonded • Insured
+              © 2026 DreamBrick. All rights reserved. | Licensed • Bonded • Insured
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">Privacy Policy</a>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Target, Eye, Heart } from 'lucide-react';
-import Image from 'next/image';
 
 const About: React.FC = () => {
   return (
@@ -9,26 +8,27 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-              About <span className="text-yellow-600">InfraTech</span>
+              About <span className="text-yellow-600">DreamBrick</span>
             </h2>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              Founded in 1998, InfraTech has grown from a small regional contractor to one of
-              the nation most trusted infrastructure development companies. We specialize in
-              complex engineering projects that require precision, innovation, and unwavering
-              commitment to quality.
+              Founded in 2019, DreamBrick Construction Pvt. Ltd. has been transforming visions into reality for over 7 years. With a commitment to excellence, transparency, and trust, we specialize in end-to-end solutions — from home design and development to complete interiors.
             </p>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Our portfolio spans across highways, bridges, commercial buildings, and sustainable
-              infrastructure projects. We pride ourselves on our ability to tackle challenging
-              projects while maintaining the highest safety standards and environmental responsibility.
+              We have successfully delivered 30+ residential and commercial projects, achieving an outstanding 99% client satisfaction rate. Backed by verified architects and engineers with 10+ years of experience, we combine expertise, quality materials, and modern methods to build lasting spaces.
+            </p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              Currently serving Nagpur, Wardha, Amravati, Chandrapur, Gondia, Bhandara, and Akola, our vision is to expand across Maharashtra, becoming the most trusted name in construction and interiors.
+            </p>
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              At DreamBrick, we don’t just build structures — we design lifestyles, create spaces, and deliver dreams brick by brick.
             </p>
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-yellow-50 p-6 rounded-lg">
-                <div className="text-2xl font-bold text-yellow-600 mb-2">25+</div>
+                <div className="text-2xl font-bold text-yellow-600 mb-2">10+</div>
                 <div className="text-gray-700">Years in Business</div>
               </div>
               <div className="bg-yellow-50 p-6 rounded-lg">
-                <div className="text-2xl font-bold text-yellow-600 mb-2">500+</div>
+                <div className="text-2xl font-bold text-yellow-600 mb-2">30+</div>
                 <div className="text-gray-700">Projects Completed</div>
               </div>
             </div>
@@ -49,8 +49,7 @@ const About: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Our Mission</h3>
             <p className="text-gray-600">
-              To build sustainable infrastructure that enhances communities and drives economic
-              growth while maintaining the highest standards of safety and quality.
+              To deliver end-to-end construction and interior solutions that combine quality, transparency, and innovation — ensuring every client’s dream home or commercial space is built with precision and care.
             </p>
           </div>
 
@@ -60,8 +59,7 @@ const About: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Our Vision</h3>
             <p className="text-gray-600">
-              To be the leading infrastructure company recognized for innovation, sustainability,
-              and excellence in project delivery across the nation.
+              To become a leading construction brand across Maharashtra, recognized for our excellence, integrity, and customer satisfaction, while expanding into new cities and creating landmarks that inspire generations.
             </p>
           </div>
 
@@ -71,8 +69,7 @@ const About: React.FC = () => {
             </div>
             <h3 className="text-xl font-bold text-gray-900 mb-4">Our Values</h3>
             <p className="text-gray-600">
-              Integrity, safety, innovation, and environmental stewardship guide every decision
-              we make and every project we undertake.
+              Quality First, Integrity & Transparency, Customer Commitment, Innovation, and Teamwork — the foundation of every DreamBrick project.
             </p>
           </div>
         </div>

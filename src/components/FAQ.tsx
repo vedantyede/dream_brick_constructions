@@ -7,29 +7,45 @@ const FAQ: React.FC = () => {
 
   const faqs = [
     {
-      question: 'What types of infrastructure projects do you handle?',
-      answer: 'We specialize in a wide range of infrastructure projects including highways, bridges, commercial buildings, water treatment facilities, and sustainable infrastructure development. Our expertise covers everything from design and engineering to construction and maintenance.'
+      question: 'What services does DreamBrick Construction offer?',
+      answer: 'We provide end-to-end construction solutions, including home design, structural development, interiors, and turnkey project delivery for both residential and commercial projects.'
     },
     {
-      question: 'How do you ensure project quality and safety?',
-      answer: 'We maintain ISO 9001 certification and follow strict quality control protocols. Our safety-first approach includes regular training, comprehensive safety audits, and the use of advanced safety equipment. We have maintained a zero-accident record for over 10 years.'
+      question: 'Do you handle both design and construction?',
+      answer: 'Yes. Our team of verified architects and engineers with 10+ years of experience manages everything from concept design to final handover, ensuring a seamless process.'
     },
     {
-      question: 'What is your typical project timeline?',
-      answer: 'Project timelines vary based on scope and complexity. Small projects may take 3-6 months, while large infrastructure projects can span 1-3 years. We provide detailed timelines during the planning phase and maintain regular progress updates throughout the project.'
+      question: 'How does the pricing work?',
+      answer: 'We follow transparent pricing with milestone-based payments. Costs are clearly shared upfront in the agreement, so there are no hidden charges or surprises.'
     },
     {
-      question: 'Do you provide project financing options?',
-      answer: 'Yes, we offer various financing solutions including traditional contracts, design-build-finance arrangements, and public-private partnerships. Our financial team works with clients to develop customized payment structures that fit their budget requirements.'
+      question: 'Can I customize the design of my home?',
+      answer: 'Absolutely! We specialize in functional layouts tailored to your lifestyle. Our architects will work with you to ensure the design matches your vision and budget.'
     },
     {
-      question: 'How do you handle environmental compliance?',
-      answer: 'Environmental responsibility is core to our operations. We conduct thorough environmental impact assessments, obtain all necessary permits, and implement sustainable construction practices. We also offer green building certifications and LEED compliance services.'
+      question: 'How long does it take to complete a project?',
+      answer: 'Project timelines depend on the size and scope. Typically, a standard residential home takes 8–12 months from excavation to handover. Commercial projects may take longer depending on complexity.'
     },
     {
-      question: 'What warranty do you provide on completed projects?',
-      answer: 'We provide comprehensive warranties ranging from 2-10 years depending on the project type and components. Our warranties cover materials, workmanship, and structural integrity. We also offer extended maintenance agreements for ongoing support.'
-    }
+      question: 'Do you provide contracts or agreements?',
+      answer: 'Yes. Every project begins with a clear, legally binding agreement that outlines scope of work, timelines, materials, and payment milestones. This ensures complete transparency and peace of mind.'
+    },
+    {
+      question: 'What materials do you use in construction?',
+      answer: 'We use only certified-grade, trusted brands like Ultratech, Kamdhenu, Ambuja, and others to ensure long-lasting quality and durability.'
+    },
+    {
+      question: 'Do you also provide interior design services?',
+      answer: 'Yes. We provide end-to-end interiors, including modular kitchens, wardrobes, false ceilings, flooring, painting, and décor, so your space is move-in ready.'
+    },
+    {
+      question: 'Which locations do you serve?',
+      answer: 'We currently provide services in Nagpur, Wardha, Amravati, Chandrapur, Gondia, Bhandara, and Akola, with a vision to expand across Maharashtra.'
+    },
+    {
+      question: 'How do you ensure on-time delivery?',
+      answer: 'We follow a milestone-based project management model, conduct regular site supervision, and use digital progress tracking to make sure every stage is completed on schedule.'
+    },
   ];
 
   const toggleItem = (index: number) => {

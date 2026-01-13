@@ -35,16 +35,22 @@ const Contact: React.FC = () => {
         Project Type: ${formData.projectType}
         Message: ${formData.message}
         `
-      },
-
-    ).then(() => alert('Thank you for your inquiry! We\'ll get back to you within 24 hours.')).catch(err => console.error(err));
-
-    emailjs.send("service_sqbxrw6", "template_3172cdp", {
-      name: formData.name,
-      email: formData.email,
-    }, '0sqSvZpY3D3yoHxAO');
-
-
+      }, '0sqSvZpY3D3yoHxAO'
+    ).then(() => {
+      alert('Thank you for your inquiry! We\'ll get back to you within 24 hours.');
+      emailjs.send("service_sqbxrw6", "template_3172cdp", {
+        name: formData.name,
+        email: formData.email,
+      }, '0sqSvZpY3D3yoHxAO').then(() => {
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          projectType: '',
+          message: ''
+        })
+      }).catch(err => { alert("Something went Wront"); console.error(err) });
+    }).catch(err => { alert("Something went Wront"); console.error(err) });
   };
 
   return (
